@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
 body {
     padding: 0;
     margin: 0;
     color: #FFF;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 /* HEADER SECTION */
@@ -10,7 +12,7 @@ body {
 .header-wrapper {
     height: 100vh;
     width: 100%;
-    background: linear-gradient(-45deg, #2c6360, #54b079, #06b7b4, #3c406f);
+    background: linear-gradient(-45deg, #9E1F16, #EB4438, #2184EB, #24609E);
     background-size: 400% 400%;
     display: flex;
     flex-direction: column;
@@ -49,7 +51,7 @@ h2 {
 }
 
 a:hover {
-    color: #06b7b4;
+    color: #9E1F16;
     background-color: #FFF;
 }
 
@@ -150,7 +152,7 @@ a:hover {
 
 .menu-items ul li a {
     margin: 10px 0;
-    color: #06b7b4;
+    color: #9E1F16;
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -161,7 +163,7 @@ a:hover {
 
 #toggle:checked + .checkbox .trace:nth-child(1) {
     transform: rotate(45deg);
-    background-color: #06b7b4;
+    background-color: #9E1F16;
     top: 47px;
 }
 
@@ -174,7 +176,7 @@ a:hover {
 
 #toggle:checked + .checkbox .trace:nth-child(3) {
     transform: rotate(-45deg);
-    background-color: #06b7b4;
+    background-color: #9E1F16;
     top: 48px;
 }
 
@@ -296,7 +298,7 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #3c406f;
+    background-color: #24609E;
 }
 
 /* RESPONSIVE */
